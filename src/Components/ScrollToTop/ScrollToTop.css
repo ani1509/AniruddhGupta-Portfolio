@@ -1,0 +1,28 @@
+.scroll-top {
+  position: fixed;
+  bottom: 2em;
+  right: 1em;
+  background-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .scroll-top {
+    display: none;
+  }
+}
+
+
+
+/* .scroll-top {
+  position: fixed;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .scroll-top {
+    display: block;
+  }
+} */
