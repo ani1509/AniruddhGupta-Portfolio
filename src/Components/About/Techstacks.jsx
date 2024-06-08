@@ -54,10 +54,10 @@ export const Techstacks = () => {
           </div>
           
           
-          <div>
+          {/* <div>
             <BsWordpress />
             <h5>Wordpress</h5>
-          </div>
+          </div> */}
           {/* <div>
             <SiHeroku />
             <h5>Heroku</h5>
