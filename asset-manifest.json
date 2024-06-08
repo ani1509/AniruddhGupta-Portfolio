@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "//ani1509.github.io/AniruddhGupta-Portfolio/static/css/main.6c53e905.css",
-    "main.js": "//ani1509.github.io/AniruddhGupta-Portfolio/static/js/main.81a232d7.js",
+    "main.js": "//ani1509.github.io/AniruddhGupta-Portfolio/static/js/main.4bda5c93.js",
     "static/media/pic.jpeg": "//ani1509.github.io/AniruddhGupta-Portfolio/static/media/pic.ab348e4799008c3bb4e1.jpeg",
     "static/media/A-logo.jpg": "//ani1509.github.io/AniruddhGupta-Portfolio/static/media/A-logo.06cfd16005862313ba11.jpg",
     "static/media/code.png": "//ani1509.github.io/AniruddhGupta-Portfolio/static/media/code.09aae90c86441ddb5cc5.png",
     "index.html": "//ani1509.github.io/AniruddhGupta-Portfolio/index.html",
     "main.6c53e905.css.map": "//ani1509.github.io/AniruddhGupta-Portfolio/static/css/main.6c53e905.css.map",
-    "main.81a232d7.js.map": "//ani1509.github.io/AniruddhGupta-Portfolio/static/js/main.81a232d7.js.map"
+    "main.4bda5c93.js.map": "//ani1509.github.io/AniruddhGupta-Portfolio/static/js/main.4bda5c93.js.map"
   },
   "entrypoints": [
     "static/css/main.6c53e905.css",
-    "static/js/main.81a232d7.js"
+    "static/js/main.4bda5c93.js"
   ]
 }
