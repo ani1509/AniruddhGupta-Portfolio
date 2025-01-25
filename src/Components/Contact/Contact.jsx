@@ -43,12 +43,12 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/Anirudd20560491"
               target="_blank"
               rel="noreferrer"
             ><CgTwitter/>
-          </a>
+          </a> */}
                {/* <FaSquareXTwitter className="email" /> 
                <BsTwitterX className="TwitterX" /> */}
             

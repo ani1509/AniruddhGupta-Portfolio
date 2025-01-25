@@ -2,7 +2,7 @@ import React from "react";
 import "./Techstacks.css";
 import { FaCode } from "react-icons/fa";
 
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws,  } from "react-icons/fa";
 import {
   SiRedux,
   SiCplusplus,
@@ -11,7 +11,7 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -25,6 +25,14 @@ export const Techstacks = () => {
         <h2 className="section__title different"> Technical Skills</h2>
         <div className="techsection">
           <div>
+            <FaReact />
+            <h5>React</h5>
+          </div>
+          <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+          <div>
             <SiJavascript />
             <h5>Javascript</h5>
           </div>
@@ -36,14 +44,7 @@ export const Techstacks = () => {
             <DiCss3 />
             <h5>CSS</h5>
           </div>
-          <div>
-            <FaReact />
-            <h5>React</h5>
-          </div>
-          <div>
-            <SiRedux />
-            <h5>Redux</h5>
-          </div>
+          
           <div>
             <SiCplusplus />
             <h5>C++</h5>

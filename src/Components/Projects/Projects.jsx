@@ -11,19 +11,107 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import DailyInsight from "./DailyInsight.png";
+import TextEase from "./TextEase.png"
+import TicTacToe from "./Tic-Tac-Toe.png"
+
 export const Projects = () => {
   return (
     <>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
-        <div className="allProjects">
+        <div className="allProjects">          
           
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
+                  <img src={TextEase} alt="TextEase" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>TextEase</h2>
+                <p>
+                  It is a React-based text utility app offering features like text manipulation, encrpt/decrypt find-and-replace, theme toggling, clipboard operations, export to PDF/DOCX, and undo/redo functionality.
+                </p>
+                <div>
+                  <IoLogoJavascript />
+                  <SiReact/>
+                  <SiHtml5 />
+                  <SiBootstrap />
+                </div>
+                <div>
+                  <a
+                    href="https://ani1509.github.io/TextEase/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Visit Site
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/ani1509/TextEase"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={TicTacToe} alt="tic tac toe" />                </div>
+              </div>
+              <div className="project_information">
+                <h2>Tic Tac Toe Game</h2>
+                <p>
+                  A classic game of X's and O's built with React, offering customizable player names and a sleek, interactive 3x3 grid. Perfect for enjoying a timeless battle of strategy and fun.
+                </p>
+                <div>
+                  <SiReact/>
+                  <IoLogoJavascript />
+                 <SiHtml5/>
+                 <SiCss3/>
+                </div>
+                <div>
+                  <a
+                    href="https://ani1509.github.io/Tic-Tac-Toe-Game/"
+                    // onClick={(e) => e.preventDefault()}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Visit Site
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/ani1509/Tic-Tac-Toe-Game"
+                     target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
                   <img
-                    src="./DailyInsight.png"
+                    src={DailyInsight}
                     alt="Dailylnsight News App"
                   />
                 </div>
@@ -63,92 +151,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src="./TextEase.png" alt="TextEase" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>TextEase</h2>
-                <p>
-                  It is a React app for text manipulation, offering functions like case conversion, space removal, and character count, with a dark/light mode toggle.
-                </p>
-                <div>
-                  <IoLogoJavascript />
-                  <SiReact/>
-                  <SiHtml5 />
-                  <SiBootstrap />
-                </div>
-                <div>
-                  <a
-                    href="https://ani1509.github.io/TextEase/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      Visit Site
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/ani1509/TextEase"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="./tictactoe.png"
-                    alt="tic tac toe"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Tic Tac Toe Game</h2>
-                <p>
-                  A quintessential game of X's and O's, engages players in a battle of wits within a 3x3 grid. With HTML, CSS, and JavaScript, it offers a seamless and interactive gaming experience, perfect for timeless enjoyment in the browser.
-                </p>
-                <div>
-                  <IoLogoJavascript />
-                 <SiHtml5/>
-                 <SiCss3/>
-                </div>
-                <div>
-                  <a
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      Visit Site
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/ani1509/tic_tac_toe"
-                     target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">

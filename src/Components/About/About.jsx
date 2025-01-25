@@ -22,9 +22,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Web Developer having proficiency in
-          ReactJS. Attired with a variety of tools & technologies and keen to
-          learn new one.
+          Skilled software developer with expertise in ReactJS and web development. Experienced in building efficient applications, solving technical challenges, and delivering quality solutions. Passionate about innovation and continuous learning.
         </p>
         <div className="about__contact center">
           <a
@@ -64,7 +62,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           
-          <a
+          {/* <a
             href="https://twitter.com/Anirudd20560491"
             aria-label="twitter"
             className="link link--icon"
@@ -72,14 +70,14 @@ export const About = () => {
             rel="noreferrer"
           >
             <TwitterIcon />
-          </a>
+          </a> */}
 
         </div>
         <button 
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/drive/folders/1NXazo1RLlNUWW7D3iMm_jJwr4XWmH244?usp=sharing"
+              "https://drive.google.com/file/d/1QMXhoyQiqaEp1QDCwK2FVstBRxOA2T8F/view?usp=drive_link"
             );
           }}
         >

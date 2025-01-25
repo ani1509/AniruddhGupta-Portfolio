@@ -1,5 +1,5 @@
 {
-  "homepage": "https://https://ani1509.github.io/AniruddhGupta-Portfolio",
+  "homepage": "https://ani1509.github.io/AniruddhGupta-Portfolio",
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "",
@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

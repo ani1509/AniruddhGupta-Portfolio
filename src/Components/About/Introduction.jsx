@@ -21,41 +21,16 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hey there! I'm <span className="different">Aniruddh Gupta</span>,
-                a tech enthusiast from <span className="different">Kanpur,
-                  Uttar Pradesh, India</span>. I earned my MCA from{" "}
-                <span className="different">Chandigarh University, Punjab</span>,
-                and now thrive at <span className="different">Cognizant Technology
-                  Solutions Corporation</span>. Passionate about leveraging
-                technology to drive innovation, I'm committed to making a
-                positive impact in the ever-evolving world of IT. Let's connect
-                and explore the endless possibilities together!
+                Hi there! I'm <span className="different">Aniruddh Gupta</span>, a passionate tech enthusiast from
+                <span className="different"> Kanpur, Uttar Pradesh, India</span>. Currently, I work as a
+                <span className="different"> Programmer Analyst</span> at
+                <span className="different"> Cognizant Technology Solutions Corporation</span>, where I focus on
+                designing, developing, and maintaining high-performance software applications. I thrive on solving
+                technical challenges, collaborating with diverse teams, and driving innovative solutions. Let's
+                connect and create something amazing together!
               </h4>
-              {/* <h4>Terms That can describe me apart form Coding :</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Entrepreneure{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Chess Enthusiast{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                YouTuber{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Poet{" "}
-              </h4> */}
+
+              
             </div>
           </div>
 
