@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AniruddhGupta-Portfolio/static/css/main.741fbbec.css",
-    "main.js": "/AniruddhGupta-Portfolio/static/js/main.6b36c52b.js",
+    "main.js": "/AniruddhGupta-Portfolio/static/js/main.b22df6e2.js",
     "static/media/pic.jpeg": "/AniruddhGupta-Portfolio/static/media/pic.ab348e4799008c3bb4e1.jpeg",
     "static/media/Tic-Tac-Toe.png": "/AniruddhGupta-Portfolio/static/media/Tic-Tac-Toe.b231f1d1498e1d459bd1.png",
     "static/media/DailyInsight.png": "/AniruddhGupta-Portfolio/static/media/DailyInsight.a6686107282e0e0cc29f.png",
@@ -10,10 +10,10 @@
     "static/media/code.png": "/AniruddhGupta-Portfolio/static/media/code.09aae90c86441ddb5cc5.png",
     "index.html": "/AniruddhGupta-Portfolio/index.html",
     "main.741fbbec.css.map": "/AniruddhGupta-Portfolio/static/css/main.741fbbec.css.map",
-    "main.6b36c52b.js.map": "/AniruddhGupta-Portfolio/static/js/main.6b36c52b.js.map"
+    "main.b22df6e2.js.map": "/AniruddhGupta-Portfolio/static/js/main.b22df6e2.js.map"
   },
   "entrypoints": [
     "static/css/main.741fbbec.css",
-    "static/js/main.6b36c52b.js"
+    "static/js/main.b22df6e2.js"
   ]
 }
