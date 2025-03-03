@@ -7,12 +7,13 @@ import {
   SiReact,
   SiCss3,
   Si1Password,
+  SiReactrouter,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+// import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import DailyInsight from "./DailyInsight.png";
-import TextEase from "./TextEase.png"
+import WordMaven from "./WordMaven.png"
 import TicTacToe from "./Tic-Tac-Toe.png"
 
 export const Projects = () => {
@@ -20,29 +21,29 @@ export const Projects = () => {
     <>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
-        <div className="allProjects">          
-          
+        <div className="allProjects">
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={TextEase} alt="TextEase" />
+                  <img src={WordMaven} alt="WordMaven" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>TextEase</h2>
+                <h2>WordMaven</h2>
                 <p>
-                  It is a React-based text utility app offering features like text manipulation, encrpt/decrypt find-and-replace, theme toggling, clipboard operations, export to PDF/DOCX, and undo/redo functionality.
+                  It is a React-based text utility app offering features like text manipulation, encrpt/decrypt find-and-replace, theme toggling, clipboard operations, export to PDF/DOCX, generating QR and undo/redo functionality.
                 </p>
                 <div>
+                  <SiReact />
                   <IoLogoJavascript />
-                  <SiReact/>
                   <SiHtml5 />
                   <SiBootstrap />
                 </div>
                 <div>
                   <a
-                    href="https://ani1509.github.io/TextEase/"
+                    href="https://ani1509.github.io/WordMaven/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -51,7 +52,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/ani1509/TextEase"
+                    href="https://github.com/ani1509/WordMaven"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -73,13 +74,12 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Tic Tac Toe Game</h2>
                 <p>
-                  A classic game of X's and O's built with React, offering customizable player names and a sleek, interactive 3x3 grid. Perfect for enjoying a timeless battle of strategy and fun.
-                </p>
+                  A classic game of X's and O's built with React, offering customizable player names and a sleek, interactive 3x3 grid. Perfect for enjoying a timeless battle of strategy and fun. Features state persistence for seamless gameplay.</p>
                 <div>
-                  <SiReact/>
+                  <SiReact />
                   <IoLogoJavascript />
-                 <SiHtml5/>
-                 <SiCss3/>
+                  <SiHtml5 />
+                  <SiCss3 />
                 </div>
                 <div>
                   <a
@@ -94,7 +94,7 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/ani1509/Tic-Tac-Toe-Game"
-                     target="_blank"
+                    target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
@@ -125,7 +125,7 @@ export const Projects = () => {
                   <FaReact />
                   <IoLogoJavascript />
                   <DiCss3 />
-                  <SiHtml5 />
+                  <SiReactrouter />
                 </div>
                 <div>
                   <a
@@ -151,14 +151,14 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          
+
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjQB67jN3rAucINBI1Wy0uHmNXyjzn8SaBQ&s"  
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjQB67jN3rAucINBI1Wy0uHmNXyjzn8SaBQ&s"
                     alt="Dummy Project"
                   />
                 </div>
@@ -171,7 +171,7 @@ export const Projects = () => {
                 <div>
                   <SiHtml5 />
                   <DiCss3 />
-                  <Si1Password/>
+                  <Si1Password />
                 </div>
                 <div>
                   <a
