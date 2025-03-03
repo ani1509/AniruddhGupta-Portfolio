@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/AniruddhGupta-Portfolio/static/css/main.741fbbec.css",
-    "main.js": "/AniruddhGupta-Portfolio/static/js/main.b22df6e2.js",
+    "main.js": "/AniruddhGupta-Portfolio/static/js/main.cafb335f.js",
     "static/media/pic.jpeg": "/AniruddhGupta-Portfolio/static/media/pic.ab348e4799008c3bb4e1.jpeg",
     "static/media/Tic-Tac-Toe.png": "/AniruddhGupta-Portfolio/static/media/Tic-Tac-Toe.b231f1d1498e1d459bd1.png",
     "static/media/DailyInsight.png": "/AniruddhGupta-Portfolio/static/media/DailyInsight.a6686107282e0e0cc29f.png",
     "static/media/A-logo.jpg": "/AniruddhGupta-Portfolio/static/media/A-logo.06cfd16005862313ba11.jpg",
-    "static/media/TextEase.png": "/AniruddhGupta-Portfolio/static/media/TextEase.a27f59ba0a20124f8a85.png",
+    "static/media/WordMaven.png": "/AniruddhGupta-Portfolio/static/media/WordMaven.c39580d1ab377860515e.png",
     "static/media/code.png": "/AniruddhGupta-Portfolio/static/media/code.09aae90c86441ddb5cc5.png",
     "index.html": "/AniruddhGupta-Portfolio/index.html",
     "main.741fbbec.css.map": "/AniruddhGupta-Portfolio/static/css/main.741fbbec.css.map",
-    "main.b22df6e2.js.map": "/AniruddhGupta-Portfolio/static/js/main.b22df6e2.js.map"
+    "main.cafb335f.js.map": "/AniruddhGupta-Portfolio/static/js/main.cafb335f.js.map"
   },
   "entrypoints": [
     "static/css/main.741fbbec.css",
-    "static/js/main.b22df6e2.js"
+    "static/js/main.cafb335f.js"
   ]
 }
