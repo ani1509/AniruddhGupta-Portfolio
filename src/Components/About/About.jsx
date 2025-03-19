@@ -22,8 +22,8 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Skilled software developer with expertise in ReactJS and web development. Experienced in building efficient applications, solving technical challenges, and delivering quality solutions. Passionate about innovation and continuous learning.
-        </p>
+          Skilled MERN Stack Developer with expertise in building scalable web applications using React.js, Node.js, Express, and MongoDB. Proficient in solving complex technical challenges, optimizing performance, and delivering high-quality solutions. Passionate about innovation, clean code, and continuous learning.
+          </p>
         <div className="about__contact center">
           <a
             href="https://www.linkedin.com/in/aniruddh-gupta-01techie/"
@@ -77,7 +77,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1SZDMTgz908iSg2yPipUNpzuinbYti68v/view?usp=drive_link"
+              "https://drive.google.com/file/d/1WgWzUm1sdvcYIagF6Qg6i8VwbPcFlhv2/view?usp=drive_link"
             );
           }}
         >

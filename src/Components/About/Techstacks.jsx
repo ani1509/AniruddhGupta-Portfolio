@@ -14,6 +14,8 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiGit,
+  SiNodedotjs,
+  SiMongodb,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -29,6 +31,18 @@ export const Techstacks = () => {
           <div>
             <FaReact />
             <h5>React</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express</h5>
+          </div>
+          <div>
+            <SiNodedotjs />
+            <h5>Node</h5>
+          </div>
+          <div>
+            <SiMongodb />
+            <h5>MongoDB</h5>
           </div>
           <div>
             <SiRedux />
@@ -59,14 +73,14 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           
-          <div>
+          {/* <div>
             <SiCplusplus />
             <h5>C++</h5>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
-          </div>
+          </div> */}
           
           
           {/* <div>
