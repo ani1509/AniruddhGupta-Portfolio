@@ -8,6 +8,11 @@ import {
   SiCss3,
   Si1Password,
   SiReactrouter,
+  SiMongodb,
+  SiExpo,
+  SiExpress,
+  SiNodedotjs,
+  SiTailwindcss,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 // import { VscJson } from "react-icons/vsc";
@@ -15,6 +20,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import DailyInsight from "./DailyInsight.png";
 import WordMaven from "./WordMaven.png"
 import TicTacToe from "./Tic-Tac-Toe.png"
+import ReadHorizon from "./ReadHorizon.png"
+
 
 export const Projects = () => {
   return (
@@ -27,13 +34,59 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
+                  <img src={ReadHorizon} alt="ReadHorizon" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>ReadHorizon</h2>
+                <p>
+                  It is a MERN stack online bookstore with a responsive UI, secure authentication, and dynamic book listings. Built with Tailwind CSS, React Router, and DaisyUI, it ensures seamless navigation and smooth API integration using Axios and MongoDB.
+                </p>
+                <div>
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiReact />
+                  <SiNodedotjs  />
+                  <SiTailwindcss />
+                  {/* <SiReactrouter /> */}
+
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Visit Site
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/ani1509/ReadHorizon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
                   <img src={WordMaven} alt="WordMaven" />
                 </div>
               </div>
               <div className="project_information">
                 <h2>WordMaven</h2>
                 <p>
-                  It is a React-based text utility app offering features like text manipulation, encrpt/decrypt find-and-replace, theme toggling, clipboard operations, export to PDF/DOCX, generating QR and undo/redo functionality.
+                  It is a React-based text utility app offering features like text manipulation, encrypt/decrypt, find-and-replace, theme toggling, clipboard operations, export to PDF/DOCX, generating QR, undo/redo functionality, and text to audio support.
                 </p>
                 <div>
                   <SiReact />
@@ -119,7 +172,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Dailylnsight News App </h2>
                 <p>
-                  It is a React app to get real-time news updates from various categories including business, entertainment, health, science, sports, and technology.
+                  It is a React app using React Router with a spinner loading feature to get real-time news updates from various categories, including business, entertainment, health, science, sports, and technology.
                 </p>
                 <div>
                   <FaReact />
@@ -153,7 +206,7 @@ export const Projects = () => {
           </div>
 
 
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -197,7 +250,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
