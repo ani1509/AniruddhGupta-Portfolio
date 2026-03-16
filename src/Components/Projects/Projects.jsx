@@ -9,7 +9,7 @@ import {
   Si1Password,
   SiReactrouter,
   SiMongodb,
-  SiExpo,
+  // SiExpo,
   SiExpress,
   SiNodedotjs,
   SiTailwindcss,
@@ -20,8 +20,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import DailyInsight from "./DailyInsight.png";
 import WordMaven from "./WordMaven.png"
 import TicTacToe from "./Tic-Tac-Toe.png"
-import ReadHorizon from "./ReadHorizon.png"
-
+import ReadHorizon from "./ReadHorizon.png";
+import AyurvedicCare from "./Ayurvedic-Care.png";
 
 export const Projects = () => {
   return (
@@ -34,36 +34,36 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={ReadHorizon} alt="ReadHorizon" />
+                  <img src={AyurvedicCare} alt="AyurvedicCare" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>ReadHorizon</h2>
+                <h2>Ayurvedic Care</h2>
                 <p>
-                  It is a MERN stack online bookstore with a responsive UI, secure authentication, and dynamic book listings. Built with Tailwind CSS, React Router, and DaisyUI, it ensures seamless navigation and smooth API integration using Axios and MongoDB.
+                  It is a MERN stack Ayurvedic consultation platform that allows patients to find doctors, book appointments, and manage consultations online. Built with React, Tailwind CSS, Node.js, Express, and MongoDB, it provides a responsive UI, secure authentication, and seamless API integration.
                 </p>
                 <div>
                   <SiMongodb />
                   <SiExpress />
                   <SiReact />
-                  <SiNodedotjs  />
+                  <SiNodedotjs />
                   <SiTailwindcss />
-                  {/* <SiReactrouter /> */}
+                  <SiReactrouter />
 
                 </div>
                 <div>
                   <a
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://ayurvediccare-frontend.onrender.com"
+                    // onClick={(e) => e.preventDefault()}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       Visit Site
                     </span>
                   </a>
                   <a
-                    href="https://github.com/ani1509/ReadHorizon"
+                    href="https://github.com/ani1509/AyurvedicCare"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -100,7 +100,7 @@ export const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       Visit Site
                     </span>
                   </a>
@@ -122,12 +122,60 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
+                  <img src={ReadHorizon} alt="ReadHorizon" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>ReadHorizon</h2>
+                <p>
+                  It is a MERN stack online bookstore with a responsive UI, secure authentication, and dynamic book listings. Built with Tailwind CSS, React Router, and DaisyUI, it ensures seamless navigation and smooth API integration using Axios and MongoDB.
+                </p>
+                <div>
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiReact />
+                  <SiNodedotjs />
+                  <SiTailwindcss />
+                  {/* <SiReactrouter /> */}
+
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Visit Site
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://github.com/ani1509/ReadHorizon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
                   <img src={TicTacToe} alt="tic tac toe" />                </div>
               </div>
               <div className="project_information">
                 <h2>Tic Tac Toe Game</h2>
                 <p>
-                  A classic game of X's and O's built with React, offering customizable player names and a sleek, interactive 3x3 grid. Perfect for enjoying a timeless battle of strategy and fun. Features state persistence for seamless gameplay.</p>
+                  A classic game of X's and O's built with React, featuring customizable player names and a sleek, interactive 3x3 grid. Enhanced with smooth animations, responsive design, and state persistence for seamless gameplay across sessions.
+                </p>
                 <div>
                   <SiReact />
                   <IoLogoJavascript />
@@ -141,7 +189,7 @@ export const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       Visit Site
                     </span>
                   </a>
@@ -233,7 +281,7 @@ export const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       Visit Site
                     </span>
                   </a>

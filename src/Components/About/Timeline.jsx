@@ -54,20 +54,25 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-                  Programmer Analyst
-                </h3>
-                <h4
-                  className="vertical-timeline-element-subtitle"
-                  data-aos="fade-right"
-                >
-                  Cognizant Technology Solutions
-                </h4>
-                <p data-aos="fade-right">
-              * Designed and developed scalable software solutions aligned with client requirements. <br />
-              * Collaborated with cross-functional teams to optimize system performance and ensure seamless deployment. <br />
-              * Resolved technical challenges to improve application reliability and user experience. <br />
+              Programmer Analyst
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Cognizant Technology Solutions
+            </h4>
+            <p data-aos="fade-right">
+              * Enhanced front‑end features and optimized performance by 30% using React hooks, lazy loading, and code splitting. <br />
 
-                </p>
+              * Applied accessibility best practices and responsive design for cross‑device consistency. <br />
+
+              * Refactored reusable components to improve maintainability and developer productivity. <br />
+
+              * Integrated RESTful APIs with JWT authentication and effective state management. <br />
+
+              * Collaborated in Agile/Scrum teams with Git version control. <br />
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Dec 2023 - Nov 2024"}
@@ -101,9 +106,15 @@ export const Timeline = () => {
               Cognizant Technology Solutions
             </h4>
             <p data-aos="fade-right">
-              * Provide software solution for clients in healthcare industry. <br />
-              * Collaborated with team members to implement responsive designs and enhance
-              user experience
+              * Built secure, responsive sign‑up/login pages with React.js. <br />
+
+              * Developed accessible, responsive UI components to improve UX. <br />
+
+              * Integrated front‑end modules with backend APIs for performance optimization. <br />
+
+              * Resolved UI defects and functional issues to strengthen stability. <br />
+
+              * Automated test cases to validate reliability and efficiency. <br />
             </p>
           </VerticalTimelineElement>
 
@@ -209,7 +220,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Air Force School, Kanpur (UP) 
+              Air Force School, Kanpur (UP)
             </h4>
             <p data-aos="fade-right">
               Concluding Class 12 in Science equipped me with a solid foundation in subjects like Physics, Chemistry, and Mathematics, paving the way for pursuing higher education in technical fields.
@@ -245,11 +256,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Air Force School, Kanpur (UP) 
+              Air Force School, Kanpur (UP)
             </h4>
             <p data-aos="fade-right">
               Concluding Class 10 in various subjects established a fundamental understanding and fostering a strong academic base for future endeavors. Achieved a perfect 10 CGPA.
-
             </p>
           </VerticalTimelineElement>
 
